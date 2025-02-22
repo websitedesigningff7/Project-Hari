@@ -9,7 +9,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: url('now.jpg  ');
+            background-image: url('now.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -21,6 +21,20 @@
         .ad-container {
             min-height: 200vh; /* Ensures content spans multiple pages */
             padding: 20px;
+        }
+
+        .video-content {
+            text-align: center;
+            margin: 20px 0;
+            margin-top: 500px; /* Ensure you have to scroll down to see the video */
+        }
+        
+        video {
+            width: 80%;
+            height: auto;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
     </style>
 </head>
@@ -39,6 +53,13 @@
                 <li>Product 4: Wireless keyboard</li>
             </ul>
             <button onclick="window.location.href='https://yourproductlink.com'">Buy Now</button>
+        </section>
+        <section class="video-content">
+            <h2>Product Video</h2>
+            <video controls>
+                <source src="your-video-file.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </section>
         <section class="contact-details">
             <h2>Contact Us</h2>
