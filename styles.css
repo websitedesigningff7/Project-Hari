@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('now.jpg') no-repeat center center fixed;
+    background-size: cover; /* This ensures the image covers the entire screen */
+    background-position: center; /* Keeps the image centered */
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    min-height: 100vh; /* Ensures the body height is at least the height of the viewport */
+}
+
+.ad-container {
+    background: rgba(0, 0, 0, 0.8); /* Dark overlay for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.ad-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.ad-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ad-content p, .product-list, .contact-details h2, .contact-details p {
+    margin: 20px 0;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+}
